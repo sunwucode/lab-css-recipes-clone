@@ -1,53 +1,57 @@
 body {
-    
 }
 
 header {
-    display: relative;
-    top: 0;
-    left: 0;
-    width: cover;
-    
-    margin-block-end: 20px;
-    border-bottom: 2px solid grey;
+  top: 0;
+  left: 0;
+
+  margin-block-end: 20px;
 }
 
 .header {
-    background-image: url(images/apple-pie.jpg)
+  background-image: url(images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    position: relative;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 300%;
 }
 
-.header_paragraphe {
-    align-content: center;
-    margin: 50px;
-    background-color: red;
-    
+#header_paragraphe {
+  text-align: center;
+  margin: 50px auto;
+  width: 50%;
 }
 
 .info {
-    align-items: center;
+  margin: 0 auto;
+  display: block;
+  height: 70px;
 }
 
-.ingredients {
-    display: flex
-    padding: 2em;
-    text-align: center;
-  vertical-align: middle;
+.Ingredients {
+  display: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 50px 0;
+  width: 50%;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
 }
 
 .receipe {
-    display: flex
-    padding: 2em;
-    text-align: center;
-  vertical-align: middle;
+  margin: 0 auto;
+  width: 50%;
 }
 
 ul {
-    display: block;
-    align-content: center;
 }
